@@ -11,7 +11,7 @@ This menu is the default launcher in [Sticky Finger's Kali Pi](http://www.whited
 ![Kali-Pi in action](http://whitedome.com.au/re4son/wp-content/uploads/2015/11/2015.11-Kali-Pi-Drone_small2.jpg)
 
 I was after an easy way to launch X Window on either the TFT screen or through HDMI without the need for massive reconfigurations.
-I came accross [garthvh's project featured on Adafruit](https://blog.adafruit.com/2015/05/08/simple-pitft-touchpi-menu-system-piday-raspberrypi-raspberry_pi/) and used it as basis for this project
+I came across [garthvh's project featured on Adafruit](https://blog.adafruit.com/2015/05/08/simple-pitft-touchpi-menu-system-piday-raspberrypi-raspberry_pi/) and used it as a basis for this project
 
 
 ## Installation
@@ -19,14 +19,14 @@ I came accross [garthvh's project featured on Adafruit](https://blog.adafruit.co
     git clone https://github.com/re4son/Kali-Pi
     cd Kali-Pi
     
-    customise the file "menu" to match the path, define the screen size, etc.
-    cusomise the scripts to suit your needs
+    customize the file "menu" to match the path, define the screen size, etc.
+    customize the scripts to suit your needs
     
-**Important: Pygame is broken on on Debian Jessie. I'll explain below how to fix it.**
+**Important: Pygame is broken on Debian Jessie. I'll explain below how to fix it.**
 
 
 ## Usage
-	sudo ./menu
+    sudo ./menu
     
 ## Layout
 
@@ -35,7 +35,7 @@ I came accross [garthvh's project featured on Adafruit](https://blog.adafruit.co
 
 ![menu](https://whitedome.com.au/re4son/wp-content/uploads/2017/02/SFKP-NextGen.gif)
 
-All functions are self explainatory.
+All functions are self-explanatory.
 After exiting and application, the screen returns back to the last menu.
 
 The "Screen Off" function launches the python script "menu_screenoff.py", which uses the RPi.GPIO module to turn the screen off.
